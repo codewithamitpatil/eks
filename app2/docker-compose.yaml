@@ -1,0 +1,14 @@
+version: '2'
+services:
+  web:
+    image: vaishanvi1234/samp22:latest
+    ports:
+      - "5001:5001"
+      - "6001:6001"
+      - "7001:7001"
+    environment:
+      POSTGRES_USER: todoapp2
+      POSTGRES_DB: todos2
+      SERVICE: app2
+      PORT: 5001
+      AMIT: hello2/amit2/sumit2/vikas2
